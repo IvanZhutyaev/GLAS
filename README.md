@@ -1,105 +1,105 @@
-# ГЛАС — Умный гражданский ИИ-ассистент для городов
+# GLAS — Smart Civic AI Assistant for Cities
 ---
 
-## Краткое описание
-**ГЛАС** — мультиплатформенная интеллектуальная информационная система для сбора, обработки, анализа и управления обращениями граждан в адрес городской администрации. Система обрабатывает текстовые, голосовые и визуальные сообщения, автоматически классифицирует и маршрутизирует обращения, предоставляет визуализацию проблем и аналитические отчёты.
-
----
-
-## Идея и философия
-Проект создаёт цифровой мост между жителями и муниципальными службами, сокращая бюрократические барьеры, повышая прозрачность работы органов власти и вовлекая граждан в улучшение городской среды. Искусственный интеллект используется только как инструмент помощи — без слежки, манипуляций или скрытого сбора данных. 
+## Brief Description
+**GLAS** is a multi-platform intelligent information system for collecting, processing, analyzing, and managing citizen appeals to the city administration. The system processes text, voice, and visual messages, automatically classifies and routes appeals, and provides problem visualization and analytical reports.
 
 ---
 
-## Цели
-- Повысить эффективность обработки обращений граждан.  
-- Увеличить доверие к городской администрации.  
-- Сформировать аналитическую базу для управленческих решений. 
+## Idea and Philosophy
+The project creates a digital bridge between residents and municipal services, reducing bureaucratic barriers, increasing the transparency of government bodies, and involving citizens in improving the urban environment. Artificial intelligence is used only as an assistance tool — without surveillance, manipulation, or hidden data collection.
 
 ---
 
-## Задачи
-- Удобный интерфейс подачи обращений.  
-- Автоматизация анализа и маршрутизации.  
-- Визуализация проблем на карте города.  
-- Формирование аналитических отчётов. 
+## Goals
+- Improve the efficiency of processing citizen appeals.  
+- Increase trust in the city administration.  
+- Create an analytical basis for management decisions.
 
 ---
 
-## Целевая аудитория
-- Граждане (всех возрастов и уровней цифровой грамотности).  
-- Муниципальные и городские службы.  
-- Администраторы и аналитики.  
-- Органы местного самоуправления. 
+## Tasks
+- Convenient interface for submitting appeals.  
+- Automation of analysis and routing.  
+- Visualization of problems on the city map.  
+- Generation of analytical reports.
 
 ---
 
-## Основные возможности
-
-### Для граждан
-- Регистрация и возможность анонимного обращения.  
-- Создание обращений: текст, фото, голосовые сообщения.  
-- Автоматическое определение категории проблемы.  
-- Привязка обращения к геолокации.  
-- Отслеживание статуса обращения и получение уведомлений.  
-- Оценка качества решения. 
-
-### Для администраторов и городских служб
-- Административный дашборд для управления обращениями.  
-- Ручная корректировка классификации и назначение ответственных.  
-- Экспорт и формирование отчётов (CSV, PDF).  
-- Тепловые карты проблем, анализ трендов и повторяющихся инцидентов. 
+## Target Audience
+- Citizens (all ages and levels of digital literacy).  
+- Municipal and city services.  
+- Administrators and analysts.  
+- Local self-government bodies.
 
 ---
 
-## Искусственный интеллект
-- NLP-анализ текстов обращений (категоризация, определение тональности/срочности).  
-- Распознавание речи (STT) для голосовых сообщений.  
-- Компьютерное зрение (анализ изображений ДТП/порчи инфраструктуры и т.д.).  
-- Определение срочности и приоритетов.  
-- Обнаружение массовых и системных проблем по шаблонам и трендам. 
+## Key Capabilities
+
+### For Citizens
+- Registration and the option for anonymous appeals.  
+- Creation of appeals: text, photo, voice messages.  
+- Automatic determination of the problem category.  
+- Linking an appeal to geolocation.  
+- Tracking appeal status and receiving notifications.  
+- Rating the quality of resolution.
+
+### For Administrators and City Services
+- Administrative dashboard for managing appeals.  
+- Manual correction of classification and assignment of responsible parties.  
+- Export and generation of reports (CSV, PDF).  
+- Heat maps of problems, trend analysis, and recurring incident analysis.
 
 ---
 
-## Безопасность и соответствие законодательству
-- JWT-аутентификация.  
-- Хеширование паролей (bcrypt).  
-- Защита от SQL-инъекций.  
-- Настройка CORS и rate limiting.  
-- Анонимизация персональных данных.  
-- Соответствие GDPR и ФЗ-152 по обработке персональных данных. 
+## Artificial Intelligence
+- NLP analysis of appeal texts (categorization, sentiment/urgency detection).  
+- Speech recognition (STT) for voice messages.  
+- Computer vision (analysis of images of traffic accidents/damage to infrastructure, etc.).  
+- Determination of urgency and priorities.  
+- Detection of mass and systemic problems based on patterns and trends.
 
 ---
 
-## Нефункциональные требования
-- Масштабируемость и высокая отказоустойчивость.  
-- Поддержка высокой нагрузки.  
-- Простота интерфейса и доступность для маломобильных групп населения (МГН). 
+## Security and Legal Compliance
+- JWT authentication.  
+- Password hashing (bcrypt).  
+- Protection against SQL injections.  
+- CORS and rate limiting configuration.  
+- Anonymization of personal data.  
+- Compliance with GDPR and Federal Law No. 152-FZ on personal data processing.
 
 ---
 
-## Этапы реализации (план)
-1. Аналитика и проектирование.  
-2. Разработка MVP.  
-3. Интеграция ИИ-модулей.  
-4. Тестирование.  
-5. Пилотный запуск.  
-6. Масштабирование. 
+## Non-Functional Requirements
+- Scalability and high fault tolerance.  
+- Support for high load.  
+- Simple interface and accessibility for people with limited mobility (PLM).
 
 ---
 
-## Ожидаемые результаты
-- Ускорение реакции городских служб.  
-- Повышение прозрачности обработки обращений.  
-- Снижение нагрузки на колл-центры.  
-- Улучшение качества городской среды. 
+## Implementation Stages (Plan)
+1. Analytics and design.  
+2. MVP development.  
+3. Integration of AI modules.  
+4. Testing.  
+5. Pilot launch.  
+6. Scaling.
 
 ---
 
-## Лицензия
-<b>AGPL-3.0 license</b>
+## Expected Results
+- Faster response from city services.  
+- Increased transparency of appeal processing.  
+- Reduced load on call centers.  
+- Improved quality of the urban environment.
 
 ---
 
-## Контакты
-Для вопросов и предложений используйте систему issue репозитория и внутренние каналы команды разработки.
+## License
+**AGPL-3.0 license**
+
+---
+
+## Contacts
+For questions and suggestions, use the repository issue system and internal development team channels.
